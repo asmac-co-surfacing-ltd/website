@@ -1,9 +1,10 @@
+import Content from "../components/Content";
 
 export default () => {
     return (
-        <div>
+        <Content>
             <h2>Hello Asmac</h2>
-        </div>
+        </Content>
     );
 
 };
