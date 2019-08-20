@@ -5,15 +5,14 @@ import AboutBlock from "../components/AboutBlock";
 export default () => {
     return (
         <Content>
-            <div className="">
-                <div className="">
-                    <h1 className=""></h1>
-                </div>
+            <div className="about-box">
                 <div>
                     {
-                        aboutData.map((item, index) => {
+                        aboutData.map((item) => {
                             return (
-                                <AboutBlock key="-" title={item.title} items={item.items} />
+                                <div>
+                                <AboutBlock key title={item.title} items={item.items} />
+                                </div>
                             )
                         })
                         
