@@ -1,0 +1,20 @@
+$dark-blue: #010057;
+
+.terms-block {
+
+    
+    &__header {
+        text-transform: uppercase;
+        font-weight: bold;
+        font-size: 20px;
+        color: $dark-blue;
+    }
+
+    &__link {
+        line-height: 1.5;
+    }
+}
+
+.terms-title {
+    color: $dark-blue;
+}

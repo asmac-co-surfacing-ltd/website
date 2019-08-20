@@ -1,7 +1,9 @@
-.masthead {
-    background-color: grey;
-    color: white;
+$dark-blue: #010057;
 
+.masthead {
+    background-color: #FF9505;
+    color:$dark-blue;
+    
 
     &__container {
         display: flex;
@@ -25,13 +27,14 @@
     &__link {
         display: inline-block;
         margin: 0 10px;
+        font-weight: bold;
     }
 
     &__anchor {
         text-decoration: none;
-        color: white;
+        color: $dark-blue;
         transition: background-color 0.3s ease;
-        padding: 10px; 
+        padding: 10px;
     }
 
     &__anchor:hover {

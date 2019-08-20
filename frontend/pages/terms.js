@@ -1,3 +1,5 @@
+import "../components/TermsBlock";
+
 import Content from "../components/Content";
 import TermsBlock from "../components/TermsBlock";
 
@@ -7,7 +9,7 @@ import termsData from "../data/terms.json";
 export default () => {
     return (
         <Content>
-            <h1>Terms and conditions - Macadam</h1>
+            <h1 className="terms-title">Terms and conditions - Macadam</h1>
             {
                 termsData.map((item, index) => {
                     return (
@@ -15,7 +17,7 @@ export default () => {
                     )
                 })
             }
-            <h1>Terms and Conditions - General</h1>
+            <h1 className="terms-title">Terms and Conditions - General</h1>
             {
                 termsGeneral.map((item, index) => {
                     return (

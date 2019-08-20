@@ -1,10 +1,10 @@
-import "./style.scss"
 
-export default ({ number, title, items }) => {
+
+export default ({ title, items }) => {
     return (
         <div className="terms-block">
             <div className="terms-block__header">
-                { number }. { title }
+                { title }
             </div>
             <ol type="a">
                 {
