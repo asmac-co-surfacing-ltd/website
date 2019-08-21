@@ -1,21 +1,24 @@
+import "./style.scss"
+import Content from "../Content";
 
-
-export default ({ title, items }) => {
+export default ({number, title, items }) => {
     return (
-        <div className="terms-block">
-            <div className="terms-block__header">
-                { title }
-            </div>
-            <ol type="a">
-                {
+        <Content>
+                <div className="about-block">
+                    <div className="about-block__header">
+                        { number }. { title }
+                    </div>
+                <div>
+                    {
                     items.map((item, index) => {
                         return (
-                            <li className="terms-block__link" key={index}>{item}</li>
+                            <p className="about-block__tag" key={index}>{item}</p>
                         )
                     })
-                    
-                }
-            </ol>
-        </div>
+                    }
+                </div>
+            </div>
+        </Content>
+       
     );
 }

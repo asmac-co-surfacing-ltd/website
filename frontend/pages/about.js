@@ -8,10 +8,10 @@ export default () => {
             <div className="about-box">
                 <div>
                     {
-                        aboutData.map((item) => {
+                        aboutData.map((index, item) => {
                             return (
                                 <div>
-                                <AboutBlock key title={item.title} items={item.items} />
+                                <AboutBlock key={index} title={item.title} items={item.items} />
                                 </div>
                             )
                         })
