@@ -13,7 +13,6 @@ export default ({ number, title, items }) => {
                             <li className="terms-block__link" key={index}>{item}</li>
                         )
                     })
-                    
                 }
             </ol>
         </div>
