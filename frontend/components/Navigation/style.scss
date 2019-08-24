@@ -26,11 +26,12 @@ $dark-blue: #010057;
 
     &__link {
         display: inline-block;
-        margin: 0 10px;
+        margin: 0 6px;
         font-weight: bold;
     }
 
     &__anchor {
+        display: block;
         text-decoration: none;
         color: $dark-blue;
         transition: background-color 0.3s ease;
@@ -41,5 +42,25 @@ $dark-blue: #010057;
         text-decoration: none;
         color: black;
         background-color: rgba(255, 255, 255, 0.6);
+    }
+
+
+    @media screen and (max-width: 600px) {
+
+        &__container {
+            flex-direction: column;
+            height: auto;
+        }
+
+        &__title {
+            font-size: 18px;
+            margin-top: 10px;
+        }
+
+        &__anchor {
+            font-size: 14px;
+        }
+
+    
     }
 }
