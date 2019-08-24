@@ -10,9 +10,13 @@ export default class Application extends App {
         const { Component } = this.props;
         return (
             <Container>
-                <Navigation />  
-                <Component />
-                <Footer />
+                <div className="app">
+                    <Navigation />
+                    <main className="app__content">
+                        <Component />
+                    </main>
+                    <Footer />
+                </div>
             </Container>
         );
     }
