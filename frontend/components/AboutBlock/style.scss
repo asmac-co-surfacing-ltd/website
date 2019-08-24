@@ -1,7 +1,8 @@
 $dark-blue: #010057;
 
 .about-block {
-    
+    padding: 15px 0 10px;
+
     &__header {
         text-transform: uppercase;
         font-weight: bold;
@@ -11,6 +12,7 @@ $dark-blue: #010057;
 
     &__tag {
         line-height: 1.5;
+        list-style: none;
     }
 }
 

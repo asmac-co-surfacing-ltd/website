@@ -1,0 +1,24 @@
+.section {
+    margin: 0;
+    text-align: center;
+    padding-bottom: 10px;
+
+    &__title {
+        display: inline-block;
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 20px;
+        margin: 10px auto;
+        padding: 0 10px 5px;
+        letter-spacing: 2px;
+        border-bottom: 1px solid black;
+    }
+
+    &__content {
+        text-align: left;
+    }
+
+    &--yellow {
+        background: gold;
+    }
+}

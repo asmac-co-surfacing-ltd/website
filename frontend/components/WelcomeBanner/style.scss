@@ -1,0 +1,25 @@
+.welcome {
+    position: relative;
+    height: 300px;
+    background-image: url(/static/images/wembley.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &__title {
+        font-size: 5vw;
+        color: #fff;
+        background-color: rgba(0, 0, 0, 0.5);
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        padding: 15px;
+    }
+
+    @media screen and (max-width: 600px) {
+        &__title {
+            font-size: 30px;
+        }
+    }
+}
