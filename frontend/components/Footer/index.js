@@ -4,11 +4,10 @@ import Content from "../Content";
 
 export default () => {
     return (
-        <Content>
-                <div className="footer">
-                    Copyright { new Date().getFullYear() }
-                </div>
-        </Content>    
-            
+        <div className="footer">
+            <Content>
+                <p className="footer__label">Copyright { new Date().getFullYear() }</p>
+            </Content> 
+        </div>
     );
 }

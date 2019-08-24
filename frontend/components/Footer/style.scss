@@ -1,14 +1,12 @@
+$footerHeight: 40px;
+
 .footer {
     background-color: lightgrey;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    height: 40px;
+    height: $footerHeight;
     width: 100%;
 
-
     &__label {
-        margin: 0 20px;
+        margin: 0;
+        line-height: $footerHeight;
     }
 }
