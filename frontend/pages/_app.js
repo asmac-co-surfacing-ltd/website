@@ -1,7 +1,8 @@
 import App, { Container } from 'next/app';
 
 import Navigation from '../components/Navigation';
-import Footer from '../components/Footer'
+import Footer from '../components/Footer';
+
 
 import '../styles/base.scss';
 
