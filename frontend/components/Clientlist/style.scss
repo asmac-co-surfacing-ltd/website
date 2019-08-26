@@ -1,0 +1,40 @@
+.client-list {
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+    &__client {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        min-height: 150px;
+        margin: 15px 0;
+        padding: 10px;
+        width: 20%;
+        min-width: 150px;
+        object-fit: contain;
+        opacity: 0.5;
+        transition: opacity 0.2s ease; 
+
+        &:hover {
+            opacity: 1;
+        }
+    }
+
+    &__logo {
+        display: block;
+        height: 60px;
+        max-width: 100%;
+        object-fit: contain;
+        margin: 0 auto;
+    }
+
+    &__name {
+        display: block;
+        text-align: center;
+    }
+}
+

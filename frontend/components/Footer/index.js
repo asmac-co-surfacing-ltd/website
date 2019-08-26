@@ -1,7 +1,6 @@
 import "./style.scss";
 import Content from "../Content";
 
-
 export default () => {
     return (
         <div className="footer">
