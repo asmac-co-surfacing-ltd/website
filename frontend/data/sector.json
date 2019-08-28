@@ -1,27 +1,20 @@
 [
     {
         "title": "Commercial",
-        "items": [
-            "Asmac has worked extensively in the commercial sector. We have a strong reputation for delivering professional results. Our aim is to carry out planned contracts and complete works within a reasonable timescale and with the minimum of disruption."
-        ]
+        "text": "Asmac has worked extensively in the commercial sector. We have a strong reputation for delivering professional results. Our aim is to carry out planned contracts and complete works within a reasonable timescale and with the minimum of disruption."
+
     },
     {
         "title": "Local Government",
-        "items": [
-            "Asmac has been involved with various Local Government Departments. We have successfully carried out maintenance works in public parks and on local authority housing."
-        ]
+        "text": "Asmac has been involved with various Local Government Departments. We have successfully carried out maintenance works in public parks and on local authority housing."
     },
     {
         "title": "Residential",
-        "items": [
-            "Asmac’s professionalism and management expertise has enables us to work directly with private projects of all sizes. No matter how big or small, we provide clients with high quality specifications and installations to meet their requirements."
-        ]
+        "text": "Asmac’s professionalism and management expertise has enables us to work directly with private projects of all sizes. No matter how big or small, we provide clients with high quality specifications and installations to meet their requirements."
+
     },
     {
         "title": "Educations",
-        "items": [
-            "Asmac has experience over many decades in the Education sector. Our involvement with Schools, Colleges and Universities has meant we have experience in assisting with planned maintenance repairs and resurfacing of their playgrounds, footpaths and car park areas."
-        ]
+        "text": "Asmac has experience over many decades in the Education sector. Our involvement with Schools, Colleges and Universities has meant we have experience in assisting with planned maintenance repairs and resurfacing of their playgrounds, footpaths and car park areas."
     }
-    
 ]

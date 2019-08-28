@@ -8,10 +8,8 @@ export default () => {
                 <p className="footer__label">Copyright { new Date().getFullYear() }</p>
             </Content>
             <div className="accreditation">
-                <div className="accreditation__container">
-                    <img className="accreditation__logo" src="/static/images/logos/fors.jpg"/>
-                    <img className="accreditation__logo" src="/static/images/logos/cqms.jpg"/>
-                </div>
+                <img className="accreditation__logo" title="Fleet Operator Recognition Scheme" src="/static/images/logos/fors.jpg"/>
+                <img className="accreditation__logo" title="CQMS Safety Scheme" src="/static/images/logos/cqms.jpg"/>
             </div>
         </div>
     );
