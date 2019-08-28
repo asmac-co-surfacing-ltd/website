@@ -7,7 +7,7 @@ export default ({title, items }) => {
              <div className="about-content">
              
                     <div className="about-block__header">
-                         { title }
+                        { title }
                     </div>
                 <ul type="a">
                     {
