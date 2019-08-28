@@ -1,4 +1,4 @@
-$footerHeight: 40px;
+$footerHeight: auto;
 
 .footer {
     background-color: lightgrey;
@@ -7,6 +7,32 @@ $footerHeight: 40px;
 
     &__label {
         margin: 0;
-        line-height: $footerHeight;
+        line-height: 40px;
+        padding: 0;
+        width: 20%;
     }
+}
+
+.accreditation {
+    display: block;
+    margin: 20px auto;
+    width: 50%;
+
+    &__container {
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        padding: 10px 0;
+    }        
+
+    &__logo {
+        max-width: 80px;
+        max-height: 50%;
+        margin: 0px auto;
+        object-fit: contain;
+        padding: 6px;
+    }
+
 }
