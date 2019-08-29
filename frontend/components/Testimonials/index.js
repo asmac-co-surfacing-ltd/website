@@ -2,7 +2,7 @@ import testimonialData from "../../data/testimonial.json";
 import "./style.scss"
 
 
-const Testimonial = (text, author) => {
+const Testimonial = ( { text, author }) => {
     return (
         <div className="testimonial">
             <div className="testimonial__text">
