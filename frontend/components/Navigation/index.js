@@ -12,6 +12,8 @@ export default () => {
                         <li className="masthead__link"><a className="masthead__anchor" href="/">Home</a></li>
                         <li className="masthead__link"><a className="masthead__anchor" href="/sectors">Sectors</a></li>
                         <li className="masthead__link"><a className="masthead__anchor" href="/terms">Terms</a></li>
+                        <li className="masthead__link"><a className="masthead__anchor" href="/contact">Contact Us</a></li>
+                        <li className="masthead__link"><a className="masthead__anchor" href="/gallery">Gallery</a></li>
                     </ul>
                 </div>
             </Content>
