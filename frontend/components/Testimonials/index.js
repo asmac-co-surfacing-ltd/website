@@ -1,13 +1,15 @@
+import testimonialData from "../../data/testimonial.json";
 import "./style.scss"
 
-const Testimonial = () => {
+
+const Testimonial = (text, author) => {
     return (
         <div className="testimonial">
             <div className="testimonial__text">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Arcu dictum varius duis at consectetur lorem
+               { text }
             </div>
             <div className="testimonial__author">
-                Dummy Text
+                { author }
             </div>
         </div>
     )
@@ -16,18 +18,15 @@ const Testimonial = () => {
 export default () => {
     return (
         <div className="testimonials-container">
-            <div className="testimonials-container__box">
-                <Testimonial />
-            </div>
-            <div className="testimonials-container__box">
-                <Testimonial />
-            </div>
-            <div className="testimonials-container__box">
-                <Testimonial />
-            </div>
-            <div className="testimonials-container__box">
-                <Testimonial />
-            </div>
+            {
+               testimonialData.map((item, index) => {
+                   return (
+                        <div key={index} className="testimonials-container__box">
+                            <Testimonial text={item.text} author={item.author}/>
+                        </div>
+                   )
+               }) 
+            }
         </div>
-    )
+    );
 }
