@@ -1,9 +1,10 @@
 import Content from "../components/Content";
+import Contact from "../components/Contact";
 
 export default () => {
     return (
         <Content>
-            <h1>hello</h1>
+            <Contact />
         </Content>
     );
 }

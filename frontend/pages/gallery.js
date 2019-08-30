@@ -1,10 +1,10 @@
-import Content from "../components/Content";
-import GalleyBlock from "../components/Gallery"
+import Section from "../components/Section";
+import Gallery from "../components/Gallery"
 
 export default () => {
     return (
-        <Content>
-            <GalleyBlock />
-        </Content>
+        <Section title="Gallery">
+            <Gallery />
+        </Section>
     );
 }
