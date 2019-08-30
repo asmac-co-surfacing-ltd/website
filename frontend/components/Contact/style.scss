@@ -1,19 +1,12 @@
-.heading {
-    display: inline-block;
-    text-transform: uppercase;
-    font-size: 20px;
-    padding: 0 10px 5px;
-    letter-spacing: 2px;
-    border-bottom: 1px solid black;
-    text-align: center;
-}
 
 .contact {
     display: flex;
     flex-direction: row;
+    justify-content: center;
 
     &__icon {
         max-width: 50px;
+        max-height: 50px;
         padding: 10px;
     }
 
