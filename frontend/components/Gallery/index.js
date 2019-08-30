@@ -18,7 +18,20 @@ const images = [
     {
         text: 'Ilford Synagogue',
         src: '/static/images/works/synagogue-ilford.jpg'
+    },
+    {
+        text: 'Medical Lining',
+        src: '/static/images/works/medical-lining.jpg'
+    },
+    {
+        text: 'Flat Roof',
+        src: '/static/images/works/flat-roof.jpg'
+    },
+    {
+        text: 'Asphalt Flashing',
+        src: '/static/images/works/asphalt-flashing.jpg'
     }
+
 ]
 
 export default () => {

@@ -1,10 +1,10 @@
-import Content from "../components/Content";
+import Section from "../components/Section";
 import Contact from "../components/Contact";
 
 export default () => {
     return (
-        <Content>
+        <Section>
             <Contact />
-        </Content>
+        </Section>
     );
 }
