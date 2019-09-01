@@ -5,15 +5,19 @@ $dark-blue: #010057;
     &__header {
         text-transform: uppercase;
         font-weight: bold;
-        font-size: 20px;
+        font-size: 18px;
         color: $dark-blue;
+        margin-bottom: 5px;
+        letter-spacing: 1px;
+    }
+
+    &__list {
+        list-style-position: outside;
+        padding-left: 20px;
     }
 
     &__link {
         line-height: 1.5;
+        margin-bottom: 5px;
     }
-}
-
-.terms-title {
-    color: $dark-blue;
 }

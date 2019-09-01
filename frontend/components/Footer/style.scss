@@ -2,9 +2,11 @@
     position: relative;
     background-color: lightgrey;
     width: 100%;
+    padding-bottom: 10px;
 
     &__label {
         text-align: center;
+        padding: 10px 0;
     }
 }
 

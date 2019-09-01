@@ -4,7 +4,6 @@ $dark-blue: #010057;
     background-color: #FF9505;
     color:$dark-blue;
     
-
     &__container {
         display: flex;
         flex-direction: row;
@@ -44,8 +43,7 @@ $dark-blue: #010057;
         background-color: rgba(255, 255, 255, 0.6);
     }
 
-
-    @media screen and (max-width: 600px) {
+    @media screen and (max-width: 820px) {
 
         &__container {
             flex-direction: column;
@@ -61,6 +59,11 @@ $dark-blue: #010057;
             font-size: 14px;
         }
 
-    
+    }
+
+    @media screen and (max-width: 450px) {
+        &__anchor {
+            padding: 10px 0;
+        }
     }
 }

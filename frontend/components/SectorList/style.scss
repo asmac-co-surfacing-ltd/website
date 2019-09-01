@@ -4,11 +4,12 @@ $dark-blue: #010057;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: center;
     margin: 20px 0;
-    
 
     &__item {
         width: 50%;
+        min-width: 300px;
         padding: 10px;
     }
 }

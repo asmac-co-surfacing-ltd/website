@@ -3,6 +3,7 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
+    margin-bottom: 20px;
 
     &__icon {
         max-width: 50px;
@@ -11,7 +12,8 @@
     }
 
     &__type {
-        line-height: 10px;
+        margin: 5px;
+        font-weight: 500;
     }
 
     &__container {

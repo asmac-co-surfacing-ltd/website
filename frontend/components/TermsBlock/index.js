@@ -6,7 +6,7 @@ export default ({ number, title, items }) => {
             <div className="terms-block__header">
                 { number }. { title }
             </div>
-            <ol type="a">
+            <ol type="a" className="terms-block__list">
                 {
                     items.map((item, index) => {
                         return (

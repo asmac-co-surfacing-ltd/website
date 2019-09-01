@@ -48,6 +48,7 @@ export default () => {
 
     return (
         <div className="gallery">
+            <p className="gallery__intro">We have included a selection of photos of our previous works. <br /> All photos are provided with permission.</p> 
             {
                 images.map((item, index) => {
                     return (

@@ -26,10 +26,18 @@
     &--white {
         background: #fff;
     }
-}
 
-.logo-box {
-    display: inline-block;
+    @media screen and (max-width: 400px) {
+        padding: 10px;
 
-  
+        &__title {
+            font-size: 18px;
+            padding: 0 5px 10px;
+        }
+
+        &__content {
+            padding-top: 0;
+        }
+    }
+
 }
