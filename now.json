@@ -5,6 +5,9 @@
     "regions": [
       "lhr1"
     ],
+    "alias": [
+      "asmacsurfacing.co.uk"
+    ],
     "builds": [
       {
         "src": "frontend/next.config.js",
