@@ -1,10 +1,10 @@
-import Content from "../components/Content";
+import Section from "../components/Section";
 import SectorList from "../components/SectorList";
 
 export default () => {
     return (
-        <Content>
+        <Section title="Sectors">
             <SectorList />
-        </Content>
+        </Section>
     )
 }
