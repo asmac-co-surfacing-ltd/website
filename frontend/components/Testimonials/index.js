@@ -19,13 +19,17 @@ export default () => {
     return (
         <div className="testimonials-container">
             {
-               testimonialData.map((item, index) => {
-                   return (
+               testimonialData.sort(() => {
+                    return 0.5 - Math.random();
+                })
+                .slice(0, 4)
+                .map((item, index) => {
+                    return (
                         <div key={index} className="testimonials-container__box">
                             <Testimonial text={item.text} author={item.author}/>
                         </div>
-                   )
-               }) 
+                    )
+                }) 
             }
         </div>
     );
